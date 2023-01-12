@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  /* height: 70%; */
+  display: flex;
+  margin-inline: auto;
+  margin-block: 40px;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 6px 4px 6px #ccc;
+}
+
+.left-column {
+  width: 30%;
+}
+
+.right-column {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-desc {
+  margin-inline: 20px;
+}
+
+.card-content {
+  margin: 40px;
+}
+
+.icon-text {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.image-box {
+  position: relative;
+}
+
+.dp {
+  width: 100%;
+}
+
+.username {
+  position: absolute;
+  bottom: 10px;
+  left: 6px;
+  color: white;
+  background-color: teal;
+  padding-block: 4px;
+  padding-inline: 8px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+i {
+  color: teal;
+}
+
+ul > li {
+  list-style: none;
+  margin-block: 19px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+.progress-bar {
+  background-color: #ccc;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.progress {
+  border-radius: 20px;
+  background-color: teal;
+  color: white;
+  font-weight: 400;
+  padding-block: 4px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.right-column p{
+    font-size: 16px;
+}
+
+.left-desc p {
+  color: #757575;
+}
+
+.skills p,
+.languages p {
+  margin-block: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-block: 15px;
+}
+
+.date {
+  color: teal;
+  margin-bottom: 15px;
+}
+
+.current {
+  background: teal;
+  padding-inline: 8px;
+  padding-block: 2px;
+  color: white;
+  border-radius: 5px;
+}
+
+article > p {
+  margin-bottom: 15px;
+}
