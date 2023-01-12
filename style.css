@@ -10,6 +10,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #757575;
+  margin-block: 20px;
+}
+
 .container {
   width: 80%;
   /* height: 70%; */
@@ -32,7 +46,7 @@ body {
   width: 70%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .left-desc {
@@ -45,7 +59,7 @@ body {
 
 .icon-text {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   align-items: baseline;
 }
 
@@ -55,12 +69,13 @@ body {
 
 .dp {
   width: 100%;
+  /* height:300px;? */
 }
 
 .username {
   position: absolute;
-  bottom: 10px;
-  left: 6px;
+  bottom: -5px;
+  left: 10px;
   color: white;
   background-color: teal;
   padding-block: 4px;
@@ -96,6 +111,10 @@ hr {
 }
 
 p {
+  font-size: 15px;
+}
+
+.left-column  p {
   font-size: 17px;
 }
 
@@ -109,25 +128,13 @@ p {
 
 .skills p,
 .languages p {
+  font-size: 16px;
   margin-block: 10px;
-}
-
-h2 {
-  font-weight: 600;
-  color: #757575;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-weight: 600;
-  font-size: 20px;
-  color: #757575;
-  margin-block: 15px;
 }
 
 .date {
   color: teal;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .current {
