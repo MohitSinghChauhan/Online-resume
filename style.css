@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-overflow: ellipsis;
 }
 
 body {
@@ -98,8 +99,8 @@ p {
   font-size: 17px;
 }
 
-.right-column p{
-    font-size: 16px;
+.right-column p {
+  font-size: 16px;
 }
 
 .left-desc p {
@@ -139,4 +140,16 @@ h3 {
 
 article > p {
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    /* flex-wrap: wrap; */
+    width: 100%;
+    flex-direction: column;
+  }
+  .left-column,.right-column{
+    width: 90%;
+    margin-inline: auto;
+  }
 }
